@@ -108,9 +108,9 @@ export default function App() {
               </ul>
             </section>
 
-            <section class="section learning">
+            <section className="section learning">
               <h2>Что изучаю</h2>
-              <ul class="learning__list">
+              <ul className="learning__list">
                 <li>TypeScript — типизация в React</li>
                 <li>Next.js — SSR и роутинг</li>
                 <li>Тестирование — Vitest / React Testing Library</li>
