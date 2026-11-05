@@ -119,8 +119,8 @@ export default function App() {
 
             <section className='section languages'>
               <h2 className='languages__heading'>Языки</h2>
-              <div className='language__row'><span>Английский</span><span className='language-level'>B2</span></div>
-              <div className='language__row'><span>Русский</span><span className='language-level'>С1</span></div>
+              <div className='language__row'><span>Английский</span><span className='language-level'>A2</span></div>
+              <div className='language__row'><span>Русский</span><span className='language-level'>C2</span></div>
             </section>
           </aside>
         </div>

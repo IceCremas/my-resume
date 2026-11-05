@@ -1,0 +1,54 @@
+@media (max-width: 700px) {
+  .page { padding: 30px; }
+  .resume__layout { grid-template-columns: minmax(0, 1fr) 190px; gap: 20px; }
+  .sidebar { padding-left: 16px; }
+  .job__top { flex-wrap: wrap; gap: 3px; }
+  .job-date { text-align: left; }
+  .contact__item { font-size: 10px; }
+  .page__header--name { font-size: 29px; }
+}
+
+@media (max-width: 560px) {
+  body { background: white; font-size: 13px; }
+  .page {
+    width: 100%;
+    min-height: 0;
+    margin: 38px 0 0;
+    padding: 22px;
+    box-shadow: none;
+  }
+  .page__header { gap: 15px; padding-bottom: 18px; margin-bottom: 23px; }
+  .page__header--name { font-size: 27px; }
+  .page__header--role { font-size: 14px; }
+  .page__header--location { font-size: 10px; }
+  .page__photo { width: 64px; height: 75px; }
+  .resume__layout { grid-template-columns: 1fr; gap: 25px; }
+  .sidebar {
+    padding-left: 0;
+    border-left: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 23px;
+  }
+  .sidebar .section { margin: 0; }
+  .skills__tags { grid-column: 1 / -1; grid-row: 2; }
+  .contacts { grid-column: 1 / -1; }
+  .learning, .languages { grid-row: 3; }
+  .page__header--name { font-size: 27px; }
+  .job__top { flex-wrap: nowrap; gap: 8px; }
+  .job-date { font-size: 9px; text-align: right; }
+  .job__description, .job__point, .degree, .educationTrack, .about__text { font-size: 12px; }
+  .contact__item { font-size: 12px; padding: 6px 0; }
+  .skills__tags li { font-size: 11px; }
+  .learning__list { font-size: 12px; }
+}
+
+@media (max-width: 360px) {
+  .page__header--name { font-size: 24px; }
+  .page__header { gap: 10px; }
+  .page__photo { width: 54px; height: 64px; }
+  .job__top { flex-wrap: wrap; gap: 3px; }
+  .job-date { text-align: left; }
+  .sidebar { grid-template-columns: 1fr; }
+  .contacts, .skills__tags, .learning, .languages { grid-column: auto; grid-row: auto; }
+}
